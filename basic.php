@@ -81,6 +81,7 @@ echo substr($new_ex,-5, 3); # reverse slicing. index starts from -1
 echo substr($new_ex,5,-3); # to omit the unwanted part
 
 // escape characters
-$vikings = "The \"vikings\" belong to neatherlands" # use \ to add the term which is illegal in the strings
+$vikings = "The \"vikings\" belong to neatherlands \n they were hunters."; # use \ to add the term which is illegal in the strings
+echo $vikings;
 
 ?>
